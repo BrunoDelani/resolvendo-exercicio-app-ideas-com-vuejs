@@ -27,9 +27,10 @@ new Vue({
   function onlyNumberKey(evt) {
     var ASCIICode = (evt.which) ? evt.which : evt.keyCode
     if (ASCIICode === 48 || ASCIICode === 49 || ASCIICode <= 31 || ASCIICode === 127){
+        msg.style.opacity= "0%";
         return true;
     }else{
-        alert("Insira somente números binários.");
+        msg.style.opacity= "100%";
         return false;
     }          
 

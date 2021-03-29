@@ -17,7 +17,8 @@
             </div>
         <div class="mb-3 pt-3">
             <label for="label-binario" class="form-label">Binário:</label>
-            <input onkeypress="return onlyNumberKey(event)" class="form-control" v-model="valorbinario" placeholder=0 maxlength="8">
+            <input onkeypress="return onlyNumberKey(event)" class="form-control" v-model="valorbinario" placeholder=0>
+            <p id='msg'>Insira somente dígitos binários. [1 ou 0]</p>
         </div>
         <div class="mb-3 pt-3">
             <label for="label-decimal" class="form-label">Decimal: {{ valordecimal }}</label>
