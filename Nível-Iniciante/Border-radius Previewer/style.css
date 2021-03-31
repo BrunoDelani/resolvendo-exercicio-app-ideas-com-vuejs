@@ -1,0 +1,60 @@
+h1{
+    font-size: 20px;
+}
+
+p{
+    font-size: 16px;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.copy{
+    font-size: 20px;
+    margin-left: 350px;
+
+}
+
+.copyclipboard{
+    width: 350px;
+    height: 40px;
+    border: none;
+    resize: none;
+}
+
+.copyclipboard:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+.previewer{
+    margin: 100px auto;
+    border: 10px solid ;
+    border-color: aquamarine;
+    background-color: #00457A;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+}
+
+.botoes input{
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.botoes label{
+    margin-right: -15px;
+    font-weight: bolder;
+}
+
+.container{
+    padding-bottom: 80px;
+}
